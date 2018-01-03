@@ -9,7 +9,7 @@ disqus:
   comments: false
   disqus_shortname: 'https-bglearning-github-io'
 
-  #google-ID: 'UA-80213386-1'
+google-ID: 'UA-111877750-1'
 
 menu:
 - {name: 'About', path: 'menu', url: 'about.html'}
