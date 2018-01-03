@@ -4,7 +4,7 @@ title: "Hello, World! Tackling the ignition cost (again)"
 author: "Bijay Gurung"
 categories: journal
 tags: [personal]
-image: cover.png
+image: assets/img/cover.png
 ---
 
 Hello, World! For the second time.

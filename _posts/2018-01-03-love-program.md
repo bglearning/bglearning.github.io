@@ -4,7 +4,7 @@ title: "A Love(?) Program"
 author: "Bijay Gurung"
 categories: poetry
 tags: [poetry]
-image: love_program.png
+image: assets/img/love_program.png
 ---
 
 What are we coding here?  
