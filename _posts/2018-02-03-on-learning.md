@@ -6,7 +6,7 @@ categories: journal
 tags: [life, note-to-self]
 image: assets/img/learning.jpg
 ---
-**I'm frequently afficted by this demoralizing and frustrating feeling of not being able to retain anything I learn.**
+**I'm frequently afflicted by this demoralizing and frustrating feeling of not being able to retain anything I learn.**
 
 Yes. It's okay to not retain *everything*. But I feel like I don't retain even 1/10th of all I learn. 
 
@@ -34,7 +34,7 @@ But even without a clear answer for this question, we can still look at the *pro
 
 ## When are we learning? 
 
-This statement I stumbled upon made immediate sense to me. *[1]*
+This statement I stumbled upon made immediate sense: *[1]*
 
 > Learning is when you use something from your memory.
 
