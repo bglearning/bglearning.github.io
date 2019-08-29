@@ -3,7 +3,7 @@ layout: post
 title: "Ludo as a Markov Chain"
 author: "Bijay Gurung"
 categories: technology
-tags: [python, mathematics]
+tags: [python, mathematics, tech]
 image: assets/img/Ludo-sim.gif
 ---
 
