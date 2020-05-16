@@ -13,19 +13,22 @@ _Note: The notes here are not exactly chronological. I have tried to group them 
 
 ## Getting into Data Science
 
-How is Data Science  now?
-- _[V]_ The field is very big now. To stand out, one good way is to learn software engineering. Also, could start from an adjacent position and move sideways. Ref: [Data Science is Different Now](http://veekaybee.github.io/2019/02/13/data-science-is-different/)
+### How is Data Science now?
+- _[V]_ The field is very big now. To stand out, one good way is to learn software engineering. Also, could start from an adjacent position and move sideways. 
+
+   Ref: [Data Science is Different Now](http://veekaybee.github.io/2019/02/13/data-science-is-different/)
+
 - _[V]_ Also, there are tiers of company that have different requirements/expectations from Data Scientists.
 - _[E]_ There are still a lot of low-hanging fruits. Don't have to do cutting-edge stuff.
 - _[E]_ Don't need to worry about the title. "Anything that gets you working with data is valuable experience".
 - _[A]_ The focus is now on engineering too, which people have realized is important for the business. One example: not as many jobs listing a PhD as a requirement.
 
-What common advice is counterproductive?
+### What common advice is counterproductive?
 - _[E]_ "You need to learn X / do Y to be a Data Scientist". This is just Gatekeeping.
     - Instead, realize that the role is different for different jobs/companies. 
     A Data Scientist may excel in a particular setting/company but may find it difficult in another company.  
 
-What to do to get into DS in the next two years? What has the biggest ROI?
+### What to do to get into DS in the next two years? What has the biggest ROI?
 - _[E]_ Don't get a PhD just for the sake of getting into DS
 - _[E]_ Learning on the job is good. You don't have to know _everything_ before getting into the field.
 - _[V]_ Books and learning on the job are good.
@@ -34,31 +37,34 @@ What to do to get into DS in the next two years? What has the biggest ROI?
 - _[E]_ Complement Kaggle with a problem of your own formulation  
 
 
-How do you keep up? How do you prioritize what you learn?
+### How do you keep up? How do you prioritize what you learn?
 - _[A]_ Learn the fundamentals and the underlying principle. E.g: Distributed Systems when learning Kubernetes.
 - _[V]_ "Wait for the dust settle in". You don't have to jump right into the newest shiny thing.  
 
 
-Making the transition from Software Engineering to Data Science _[A]_
+### Making the transition from Software Engineering to Data Science _[A]_
 - A lot of what you already know helps.
 - Major Obstacle?
     - Too much information. To solve this, have a problem in mind and learn what's necessary for that.  
 
 
-Project Manager to Data Scientist
+### Project Manager to Data Scientist
 - _[A]_ Learn Coding. Pick up Python. 
 - _[E]_ There are already some parts of the role amenable to being molded into analysis of data. Can look to use Looker or Tableau and then use Python for the same. Also good to note that a lot of the other transferable skills can be helpful: communication, handling multiple stakeholders, thinking in terms of products.  
 
 
 ## Job Applications
 
-Job titles under the DS umbrella _[V]_
+### Job titles under the DS umbrella _[V]_
 - Data Scientist: the most generalist now.
 - Machine Learning Engineer: expected to know how to build the pipelines end-to-end.
 - Research Scientists: Deep work in algorithms.
 - Data Analyst (but now termed Data Scientist): The "traditional" analyst role.
 
-DS Roles _[E]_  Ref: [Red flags in Data Science Interviews](https://hookedondata.org/red-flags-in-data-science-interviews/)
+### DS Roles _[E]_  
+
+Ref: [Red flags in Data Science Interviews](https://hookedondata.org/red-flags-in-data-science-interviews/)
+
 - Not exactly red flags but do factor in that there is a lot of difference based on preference. 
     - E.g. Do you want to be the first on the DS team or need a DS team already there?
     - Startup vs big company? How okay are you with bureaucracy?
