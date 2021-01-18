@@ -3,35 +3,41 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-<div class="posts">
-  <h1>
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-  </h1>
-  {% if post.image %}
-  <div class="thumbnail-container">
-    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/{{ post.image }}"></a>
-  </div>
-  {% endif %}
-  <p>
-    {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-  </p>
-</div>
-{% endfor %}
+Hi! I'm <b>Bijay Gurung</b>, a Machine Learning Engineer and writer.
+I love reading, writing and learning. I'm interested in Artificial Intelligence, technology in general and lifey-things (a vague term that means nothing and everything).
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">Older</a>
-  {% else %}
-    <span class="pagination-button">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Newer</a>
-  {% else %}
-    <span class="pagination-button">Newer</span>
-  {% endif %}
-</div>
-{% endif %}
+<h2> Selected Writings </h2>
+<h3>Tech</h3>
+    <ul><a href="https://medium.com/fuse-ai/ai-in-practice-part-i-2e135d1d7285">AI In Practice (three-part series)</a></ul>
+    <ul><a href="{{ site.github.url }}{% link _posts/2019-08-29-nlp-summaries.md %}">Tongue-in-cheek NLP Paper Summaries</a></ul>
+    <ul><a href="{{ site.github.url }}{% link _posts/2018-08-27-ludo-as-a-markov-chain.md %}">Ludo as a Markov Chain</a></ul>
+    <ul><a href="https://qr.ae/pNmsfg">Automatic vs Numerical Differentiation</a></ul>
+    <ul><a href="https://medium.com/zerone-magazine/code-is-not-the-goal-8e2ac8ea66f1">Code is not the Goal</a></ul>
+
+<h3>Lifey/General</h3>
+    <ul><a href="{{ site.github.url }}{% link _posts/2018-02-03-on-learning.md %}">On Learning</a></ul>
+    <ul><a href="https://medium.com/@bijaygurung/shaping-the-workplace-culture-b97a1065cfb6">Shaping the workplace culture</a></ul>
+    <ul><a href="https://medium.com/@bijaygurung/twenty-something-thoughts-5e5351f5ef0">Twenty-something Thoughts</a></ul>
+    <ul><a href="https://medium.com/@bijaygurung/what-happiness-means-to-me-1d75aa8b85c0">What Happiness means to me</a></ul>
+    <ul><a href="https://medium.com/zerone-magazine/the-chicken-the-duck-and-the-filter-bubble-597c747ef349">The Chicken, the Duck, and the Filter Bubble</a></ul>
+    <ul><a href="https://medium.com/zerone-magazine/a-reluctant-goodbye-why-i-dont-feel-like-leaving-college-71b3cd844e6d">A Reluctant Goodbye: Why I don't feel like leaving college</a></ul>
+    <ul><a href="https://medium.com/zerone-magazine/the-anatomy-of-a-semester-5896c9bc48d">The Anatomy of a Semester</a></ul>
+    <ul><a href="https://medium.com/zerone-magazine/why-we-should-just-write-51559ab84139">Why we should just Write</a></ul>
+    <ul><a href="https://medium.com/@bijaygurung/the-in-significance-of-our-time-b8687558423">The (In)significance of Our Time</a></ul>
+
+
+<h2> Talks </h2>
+<ul>
+    <a href="https://youtu.be/ApR0dTzeK20">Machine Learning Projects: The Same and the Different</a>, Python Nepal Meetup 2019 [<a href="https://docs.google.com/presentation/d/15Gs25FCyonZtu29JE1nbLjNhBRfpNZLkeFkWgcRPyXY/edit">slides</a>]<br>
+    <i>On the Similarities and Differences between “normal” software projects and ML Projects.</i>
+</ul>
+
+<ul>
+    <a href="https://bit.ly/3gKk0DS">AI In Practice</a>, GDG DevFest 2018<br>
+    <i> On AI in its applied form </i>
+</ul>
+
+<ul>
+    <a href="https://bit.ly/3huZGH6">Reading Research Papers</a>, LOCUS 2018<br>
+    <i>On the Why and How of reading papers</i>
+</ul>
