@@ -2,6 +2,9 @@
 layout: page
 title: Writing
 ---
+Apart from writings on this site (listed below), I also have writings over at [Medium](https://medium.com/@bijaygurung) and [Quora](https://www.quora.com/profile/Bijay-Gurung-5).
+
+And also a newsletter: [Things Of Note](https://bglearning.substack.com/)!
 <ul class="posts">
   {% for post in site.posts %}
 
